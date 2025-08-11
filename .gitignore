@@ -1,0 +1,43 @@
+# Only include .py and .sh files, exclude everything else
+*
+!*.py
+!*.sh
+!.gitignore
+!README.md
+
+# But still exclude these patterns even for .py files
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.Python
+**/build/
+**/dist/
+**/*.egg-info/
+
+# Exclude directories
+1st_OUTPUT/
+2nd_RESULT/
+archive/
+evaluation_results/
+evaluation_results_without_cable_components/
+GLIP/
+image_output/
+logs/
+plot/
+test_output/
+visualized_output_images/
+visualized_output_images_4cat/
+
+# OS and IDE files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment files
+.env
+.venv
+env/
+venv/
