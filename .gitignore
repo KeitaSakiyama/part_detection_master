@@ -3,7 +3,7 @@
 !*.py
 !*.sh
 !.gitignore
-!README.md
+!*.md
 
 # But still exclude these patterns even for .py files
 **/__pycache__/

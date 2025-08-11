@@ -1,4 +1,5 @@
 # Bridge Inspection Part Detection
+[日本語版READMEはこちら](README_ja.md)
 
 This project contains machine learning models and scripts for detecting and classifying bridge components in inspection images.
 
